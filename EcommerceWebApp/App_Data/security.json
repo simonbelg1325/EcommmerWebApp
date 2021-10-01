@@ -1,0 +1,10 @@
+{
+  "Groups": {},
+  "Rights": [
+    {
+      "Id": "2e3aead5-ebd8-4953-bfda-ba94a70fc194",
+      "Resource": "Query/EcommerceWebApp",
+      "UserId": "d3bd3312-0730-43d9-9bf4-9e14c75b00f7"
+    }
+  ]
+}
