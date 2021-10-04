@@ -1,9 +1,8 @@
-﻿using EcommerceWebApp.Service;
-using System;
+﻿using System;
 using Vidyano.Service;
 using Vidyano.Service.Repository;
 
-namespace Adoptiepunt.Service
+namespace EcommerceWebApp.Service
 {
     public class CustomPersistentObjectActionsReference<TContext, TEntity> : PersistentObjectActionsReference<TContext, TEntity>
     where TContext : ITargetContext

@@ -1,6 +1,4 @@
-﻿using Adoptiepunt.Service;
-
-namespace EcommerceWebApp.Service.Actions
+﻿namespace EcommerceWebApp.Service.Actions
 {
     public class Company : EntityBase
     {

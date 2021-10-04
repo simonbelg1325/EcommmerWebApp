@@ -15,5 +15,8 @@ namespace EcommerceWebApp.Service
         public DbSet<Address> Addresses { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderStatus> OrderStatuses { get; set; }
+        public DbSet<OrderStatusHistory> OrderStatusHistories { get; set; }
     }
 }

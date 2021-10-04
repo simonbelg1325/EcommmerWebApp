@@ -1,5 +1,4 @@
-﻿using Adoptiepunt.Service;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace EcommerceWebApp.Service.Actions
 {
