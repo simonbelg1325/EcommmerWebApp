@@ -9,8 +9,8 @@ namespace EcommerceWebApp.Service.Actions
         public string Value { get; set; }
         public bool Default { get; set; }
         public virtual ICollection<Order> Orders { get; set; }
-        public virtual ICollection<CartRules> MainCartRuleses { get; set; }
-        public virtual ICollection<CartRules> SecondaryCartRuleses { get; set; }
+        public virtual ICollection<CartRule> MainCartRules { get; set; }
+        public virtual ICollection<CartRule> SecondaryCartRules { get; set; }
     }
     public class CurrencyActions : CustomPersistentObjectActionsReference<EcommerceWebAppContext, Currency>
     {

@@ -14,6 +14,8 @@ namespace EcommerceWebApp.Service.Actions
 
         public virtual ICollection<Address> Addresses { get; set; }
         public virtual ICollection<Company> Companies { get; set; }
+        public virtual ICollection<CartRuleUser> CartRuleUsers { get; set; }
+        public virtual ICollection<RoleUser> RoleUsers { get; set; }
     }
     public class UserActions : CustomPersistentObjectActionsReference<EcommerceWebAppContext, User>
     {

@@ -10,7 +10,7 @@ namespace EcommerceWebApp.Service.Actions
         public int Rgt { get; set; }
         public int Depth { get; set; }
         public virtual ICollection<CategoryProduct> CategoryProducts { get; set; }
-        public virtual ICollection<CartRulesCategory> CartRulesCategories { get; set; }
+        public virtual ICollection<CartRuleCategory> CartRulesCategories { get; set; }
     }
     public class CategoryActions : CustomPersistentObjectActionsReference<EcommerceWebAppContext, Category>
     {
