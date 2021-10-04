@@ -19,8 +19,8 @@ namespace EcommerceWebApp.Service.Actions
         public virtual ICollection<OrderProduct> OrderProducts { get; set; }
         public virtual ICollection<CategoryProduct> CategoryProducts { get; set; }
         public virtual ICollection<AttributeProduct> AttributeProducts { get; set; }
-        public virtual ICollection<CartRulesProduct> CartRulesProducts { get; set; }
-        public virtual ICollection<CartRules> CartRuleses { get; set; }
+        public virtual ICollection<CartRuleProduct> CartRuleProducts { get; set; }
+        public virtual ICollection<CartRule> CartRules { get; set; }
         public virtual ICollection<ProductImage> ProductImages { get; set; }
         public virtual ICollection<SpecificPrice> SpecificPrices { get; set; }
     }

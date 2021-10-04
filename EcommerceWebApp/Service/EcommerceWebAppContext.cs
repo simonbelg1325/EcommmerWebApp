@@ -30,5 +30,8 @@ namespace EcommerceWebApp.Service
         public DbSet<AttributeAttributeSet> AttributeAttributeSets { get; set; }
         public DbSet<Attribute> Attributes { get; set; }
         public DbSet<AttributeValue> AttributeValues { get; set; }
+        public DbSet<AttributeProduct> AttributeProducts { get; set; }
+        public DbSet<CartRuleProduct> CartRuleProducts { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
     }
 }
