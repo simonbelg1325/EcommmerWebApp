@@ -24,5 +24,11 @@ namespace EcommerceWebApp.Service
         public DbSet<Product> Products { get; set; }
         public DbSet<SpecificPrice> SpecificPrices { get; set; }
         public DbSet<Tax> Taxes { get; set; }
+        public DbSet<CategoryProduct> CategoryProducts { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<AttributeSet> AttributeSets { get; set; }
+        public DbSet<AttributeAttributeSet> AttributeAttributeSets { get; set; }
+        public DbSet<Attribute> Attributes { get; set; }
+        public DbSet<AttributeValue> AttributeValues { get; set; }
     }
 }
