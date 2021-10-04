@@ -14,6 +14,6 @@ namespace EcommerceWebApp.Service.Actions
     }
     public class CurrencyActions : CustomPersistentObjectActionsReference<EcommerceWebAppContext, Currency>
     {
-        public CompanyActions(EcommerceWebAppContext context) : base(context) { }
+        public CurrencyActions(EcommerceWebAppContext context) : base(context) { }
     }
 }

@@ -18,5 +18,11 @@ namespace EcommerceWebApp.Service
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderStatus> OrderStatuses { get; set; }
         public DbSet<OrderStatusHistory> OrderStatusHistories { get; set; }
+        public DbSet<Currency> Currencies { get; set; }
+        public DbSet<Carrier> Carriers { get; set; }
+        public DbSet<OrderProduct> OrderProducts { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<SpecificPrice> SpecificPrices { get; set; }
+        public DbSet<Tax> Taxes { get; set; }
     }
 }
