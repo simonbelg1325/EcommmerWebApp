@@ -41,6 +41,8 @@ namespace EcommerceWebApp.Service
         public DbSet<CartRuleCombination> CartRuleCombinations { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<RoleUser> RoleUsers { get; set; }
+        public DbSet<PermissionRole> PermissionRoles { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -6,6 +6,7 @@ namespace EcommerceWebApp.Service.Actions
     {
         public string Name { get; set; }
         public virtual ICollection<RoleUser> RoleUser { get; set; }
+        public virtual ICollection<PermissionRole> PermissionRoles { get; set; }
     }
     public class RoleActions : CustomPersistentObjectActionsReference<EcommerceWebAppContext, Role>
     {
