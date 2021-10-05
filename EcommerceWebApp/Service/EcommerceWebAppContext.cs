@@ -61,6 +61,20 @@ namespace EcommerceWebApp.Service
                 .OnDelete(DeleteBehavior.ClientNoAction)
                 .IsRequired();
 
+            modelBuilder.Entity<CartRule>()
+                .HasOne(r => r.MainCartRule)
+                .WithMany(p => p.SecondaryCartRules)
+                .HasForeignKey(r => r.MainCartRuleId)
+                .OnDelete(DeleteBehavior.ClientNoAction)
+                .IsRequired();
+
+            modelBuilder.Entity<CartRule>()
+                .HasOne(r => r.SecondaryCartRule)
+                .WithMany(p => p.MainCartRules)
+                .HasForeignKey(r => r.SecondaryCartRuleId)
+                .OnDelete(DeleteBehavior.ClientNoAction)
+                .IsRequired();
+
             foreach (var foreignKey in modelBuilder.Model.GetEntityTypes().SelectMany(e => e.GetForeignKeys()))
                 foreignKey.DeleteBehavior = DeleteBehavior.ClientNoAction;
 

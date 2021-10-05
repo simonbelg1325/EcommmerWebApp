@@ -22,6 +22,10 @@ namespace EcommerceWebApp.Service.Actions
         public int MinNrProducts { get; set; }
         public enum DiscountType { FreeShipping, BuyOneGetOneFree, SeasonalDiscount }
         public decimal ReductionAmount { get; set; }
+        public int MainCartRuleId { get; set; }
+        public virtual Currency MainCartRule { get; set; }
+        public int SecondaryCartRuleId { get; set; }
+        public virtual Currency SecondaryCartRule { get; set; }
         public virtual ICollection<CartRuleUser> CartRuleUsers { get; set; }
         public virtual ICollection<CartRuleCombination> CartRuleCombinations1 { get; set; }
         public virtual ICollection<CartRuleCombination> CartRuleCombinations2 { get; set; }

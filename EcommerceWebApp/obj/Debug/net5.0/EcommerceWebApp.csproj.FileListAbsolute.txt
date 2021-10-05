@@ -84,3 +84,4 @@ C:\Users\wondisi\Vidyano6\EcommerceWebApp\EcommerceWebApp\obj\Debug\net5.0\Ecomm
 C:\Users\wondisi\Vidyano6\EcommerceWebApp\EcommerceWebApp\obj\Debug\net5.0\ref\EcommerceWebApp.dll
 C:\Users\wondisi\Vidyano6\EcommerceWebApp\EcommerceWebApp\obj\Debug\net5.0\EcommerceWebApp.pdb
 C:\Users\wondisi\Vidyano6\EcommerceWebApp\EcommerceWebApp\obj\Debug\net5.0\EcommerceWebApp.genruntimeconfig.cache
+C:\Users\wondisi\Vidyano6\EcommerceWebApp\EcommerceWebApp\bin\Debug\net5.0\App_Data\cdncache.tmp
